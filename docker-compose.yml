@@ -1,0 +1,28 @@
+services:
+  serwer:
+    build:
+      context: ./serwer
+    container_name: serwer
+    networks:
+      - internal-net
+      - external-net
+
+  client:
+    build:
+      context: ./client
+    container_name: client
+    ports:
+      - "5000:5000"
+    # depends_on:
+    #   - serwer
+    networks:
+      - internal-net
+      - external-net
+
+networks:
+  internal-net:
+    driver: bridge
+    internal: true
+    
+  external-net:
+    driver: bridge
