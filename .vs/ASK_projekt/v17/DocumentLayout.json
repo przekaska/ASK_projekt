@@ -1,0 +1,143 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC\\source\\repos\\ASK_projekt\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Source\\Repos\\ASK_projekt\\Krzysztof\\serwer\\app.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Krzysztof\\serwer\\app.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Source\\Repos\\ASK_projekt\\Krzysztof\\client\\app.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Krzysztof\\client\\app.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Source\\Repos\\ASK_projekt\\Krzysztof\\client\\requirements.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Krzysztof\\client\\requirements.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\source\\repos\\ASK_projekt\\Krzysztof\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Krzysztof\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\source\\repos\\ASK_projekt\\Krzysztof\\serwer\\Dockerfile||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Krzysztof\\serwer\\Dockerfile||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\source\\repos\\ASK_projekt\\Krzysztof\\serwer\\requirements.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Krzysztof\\serwer\\requirements.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\source\\repos\\ASK_projekt\\Krzysztof\\client\\Dockerfile||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Krzysztof\\client\\Dockerfile||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "requirements.txt",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\ASK_projekt\\Krzysztof\\serwer\\requirements.txt",
+              "RelativeDocumentMoniker": "Krzysztof\\serwer\\requirements.txt",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\ASK_projekt\\Krzysztof\\serwer\\requirements.txt",
+              "RelativeToolTip": "Krzysztof\\serwer\\requirements.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-12-03T01:04:49.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "app.py",
+              "DocumentMoniker": "C:\\Users\\PC\\Source\\Repos\\ASK_projekt\\Krzysztof\\client\\app.py",
+              "RelativeDocumentMoniker": "Krzysztof\\client\\app.py",
+              "ToolTip": "C:\\Users\\PC\\Source\\Repos\\ASK_projekt\\Krzysztof\\client\\app.py",
+              "RelativeToolTip": "Krzysztof\\client\\app.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALmSURBVDhPrZTfa1tlGMc/7zknv3NOkjVJu/RkpUg7uqyxShErVKXMwnT\u002BwO1ieOff4P/g5ZjgnRciMu9E74UhFAWH1DVNI9Y2/bXZhKU5ydLTLudHXi80kroMb/zCc/E8z/f74eXl5YX/Q1JKMdgvLCzcnpiYeG9w9m8JIe5UKpXP19bWtgbn2mATDofTy8vLF\u002Bbn5wfH/6hcLlOv169ms9mOqqrfrK6u/tbfqYPGycnJ95eWlmanpqawbXtwRT6fp91uk8vl9NHR0RHP83Bdt1ar1SwA5Yz7b2maRjQaPVOK8pfVcZxYMBi8ZJrmFdM0X\u002BhnhoKEEKiqeqYkglQ6ixaOoidS8fHxcRPI9TNDQd1ul1arRavVwrIsdv5osFnr0FRSnMZMeqkLxDJ5LZlMhvuZM5fdVzweJxQKAeD1JPVDh\u002B/XH7Fx0KTVOSEWgNmMGrtUKIz1M0NPZFkWGxsV1ssbrJUrHDSOcRwX6fn0PI9m28Y6dcMjmXTWMKK6YRiBoaB0Os3Fy0W0sWnud86x37RxfZ8RXSOige\u002B7JKJPEjffyt7YK3/2y95O5eZQkGVZ/LS\u002ByberNe5VG5R2GlT2G1QPmzy2T/BdF\u002BG3RUTZCyaCW2Yi\u002BOCjoaB4PE4knqRab9M5eYLrOLyYV7hSCHBtLsyHr8V5e85DcXfBbQRwH14cCup2uxwfH\u002BN7LkJ6vDsnuV7c5frlLW48v8M7hW2K2X2EewSeLZCeNhQkhECPBMinIig9h9enXQrZQ6ZSBzyX3CUXqRLlIXg2SN9DO18dCtJ1nZlJkzdmz/PqzBgZXaIJH3ou9CRIFdRMi9jLJWKv3CM0/cVT7\u002Bjo6Ijt7W0ApnWVmWISI9yU4tQB71Sg6KDoEC4\u002BeBx486tSqfQ7bH73n99IJBLkk48/CMX8uwnh1IIQEqjnPGIv3f/h1\u002Byni4uLXw76nynDMDTLal6V9s8/yubXtnx0x5Gtu2XZPby1srKy1Pf9CbDGIodTYeM3AAAAAElFTkSuQmCC",
+              "WhenOpened": "2025-12-03T01:03:56.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\ASK_projekt\\Krzysztof\\docker-compose.yml",
+              "RelativeDocumentMoniker": "Krzysztof\\docker-compose.yml",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\ASK_projekt\\Krzysztof\\docker-compose.yml",
+              "RelativeToolTip": "Krzysztof\\docker-compose.yml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-12-02T21:49:41.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\ASK_projekt\\Krzysztof\\serwer\\Dockerfile",
+              "RelativeDocumentMoniker": "Krzysztof\\serwer\\Dockerfile",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\ASK_projekt\\Krzysztof\\serwer\\Dockerfile",
+              "RelativeToolTip": "Krzysztof\\serwer\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-02T21:49:38.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\ASK_projekt\\Krzysztof\\client\\Dockerfile",
+              "RelativeDocumentMoniker": "Krzysztof\\client\\Dockerfile",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\ASK_projekt\\Krzysztof\\client\\Dockerfile",
+              "RelativeToolTip": "Krzysztof\\client\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-02T21:49:32.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "app.py",
+              "DocumentMoniker": "C:\\Users\\PC\\Source\\Repos\\ASK_projekt\\Krzysztof\\serwer\\app.py",
+              "RelativeDocumentMoniker": "Krzysztof\\serwer\\app.py",
+              "ToolTip": "C:\\Users\\PC\\Source\\Repos\\ASK_projekt\\Krzysztof\\serwer\\app.py",
+              "RelativeToolTip": "Krzysztof\\serwer\\app.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALmSURBVDhPrZTfa1tlGMc/7zknv3NOkjVJu/RkpUg7uqyxShErVKXMwnT\u002BwO1ieOff4P/g5ZjgnRciMu9E74UhFAWH1DVNI9Y2/bXZhKU5ydLTLudHXi80kroMb/zCc/E8z/f74eXl5YX/Q1JKMdgvLCzcnpiYeG9w9m8JIe5UKpXP19bWtgbn2mATDofTy8vLF\u002Bbn5wfH/6hcLlOv169ms9mOqqrfrK6u/tbfqYPGycnJ95eWlmanpqawbXtwRT6fp91uk8vl9NHR0RHP83Bdt1ar1SwA5Yz7b2maRjQaPVOK8pfVcZxYMBi8ZJrmFdM0X\u002BhnhoKEEKiqeqYkglQ6ixaOoidS8fHxcRPI9TNDQd1ul1arRavVwrIsdv5osFnr0FRSnMZMeqkLxDJ5LZlMhvuZM5fdVzweJxQKAeD1JPVDh\u002B/XH7Fx0KTVOSEWgNmMGrtUKIz1M0NPZFkWGxsV1ssbrJUrHDSOcRwX6fn0PI9m28Y6dcMjmXTWMKK6YRiBoaB0Os3Fy0W0sWnud86x37RxfZ8RXSOige\u002B7JKJPEjffyt7YK3/2y95O5eZQkGVZ/LS\u002ByberNe5VG5R2GlT2G1QPmzy2T/BdF\u002BG3RUTZCyaCW2Yi\u002BOCjoaB4PE4knqRab9M5eYLrOLyYV7hSCHBtLsyHr8V5e85DcXfBbQRwH14cCup2uxwfH\u002BN7LkJ6vDsnuV7c5frlLW48v8M7hW2K2X2EewSeLZCeNhQkhECPBMinIig9h9enXQrZQ6ZSBzyX3CUXqRLlIXg2SN9DO18dCtJ1nZlJkzdmz/PqzBgZXaIJH3ou9CRIFdRMi9jLJWKv3CM0/cVT7\u002Bjo6Ijt7W0ApnWVmWISI9yU4tQB71Sg6KDoEC4\u002BeBx486tSqfQ7bH73n99IJBLkk48/CMX8uwnh1IIQEqjnPGIv3f/h1\u002Byni4uLXw76nynDMDTLal6V9s8/yubXtnx0x5Gtu2XZPby1srKy1Pf9CbDGIodTYeM3AAAAAElFTkSuQmCC",
+              "WhenOpened": "2025-12-02T21:49:27.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "requirements.txt",
+              "DocumentMoniker": "C:\\Users\\PC\\Source\\Repos\\ASK_projekt\\Krzysztof\\client\\requirements.txt",
+              "RelativeDocumentMoniker": "Krzysztof\\client\\requirements.txt",
+              "ToolTip": "C:\\Users\\PC\\Source\\Repos\\ASK_projekt\\Krzysztof\\client\\requirements.txt",
+              "RelativeToolTip": "Krzysztof\\client\\requirements.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-12-02T21:49:18.949Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

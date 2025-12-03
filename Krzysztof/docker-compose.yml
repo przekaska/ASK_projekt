@@ -1,28 +1,96 @@
-services:
-  serwer:
-    build:
-      context: ./serwer
-    container_name: serwer
+﻿services:
+  service-b:
+    build: ./service-b
+    container_name: service-b
     networks:
-      - internal-net
-      - external-net
+      - backend
+    expose:
+      - "5000"
+    restart: unless-stopped
+    environment:
+      - PYTHONUNBUFFERED=1
+    healthcheck:
+      test: ["CMD", "wget", "-q", "--spider", "http://localhost:5000/info"]
+      interval: 10s
+      timeout: 3s
+      retries: 3
+    # Security
+    user: "1000:1000"            # brak roota
+    read_only: true              # brak zapisu po filesystemie
+    tmpfs:
+      - /tmp:rw,noexec,nosuid,nodev,size=64m
+    cap_drop:                    # usuwamy wszystkie capabilities
+      - ALL
+    cap_add: []                  # brak dodatkowych
+    security_opt:
+      - no-new-privileges:true   # brak eskalacji
+    dns:
+      - 1.1.1.1                  # bez dziedziczenia hostowego DNS
+    deploy:
+      resources:
+        limits:
+          cpus: "0.3"
+          memory: 200M
 
-  client:
-    build:
-      context: ./client
-    container_name: client
+  service-b-proxy:
+    build: ./service-b-proxy
+    container_name: service-b-proxy
+    depends_on:
+      - service-b
+    networks: [backend]
+    expose:
+      - "443"
     ports:
-      - "5000:5000"
-    # depends_on:
-    #   - serwer
+      - "8443:443"
+    read_only: true
+    tmpfs:
+      - /tmp:rw,noexec,nosuid,nodev,size=64m
+      - /var/cache/nginx:rw
+      - /run:rw
+    security_opt:
+      - no-new-privileges:true
+    volumes:
+      - ./certs:/etc/nginx/certs:ro
+
+  service-a:
+    build: ./service-a
+    container_name: service-a
     networks:
-      - internal-net
-      - external-net
+      - backend
+    ports:
+      - "8080:5001"
+    depends_on:
+      - service-b-proxy
+    restart: unless-stopped
+    environment:
+      - SERVICE_B_URL=https://service-b-proxy
+      - PYTHONUNBUFFERED=1
+    healthcheck:
+      test: ["CMD", "wget", "-q", "--spider", "http://localhost:5001/"]
+      interval: 10s
+      timeout: 3s
+      retries: 3
+    # Security
+    user: "1001:1001"
+    read_only: true
+    tmpfs:
+      - /tmp:rw,noexec,nosuid,nodev,size=64m
+    cap_drop:
+      - ALL
+    cap_add: []
+    security_opt:
+      - no-new-privileges:true
+    dns:
+      - 1.1.1.1
+    deploy:
+      resources:
+        limits:
+          cpus: "0.3"
+          memory: 200M
+    volumes:
+      - ./certs/ca.crt:/certs/ca.crt:ro
+    
 
 networks:
-  internal-net:
-    driver: bridge
-    internal: true
-    
-  external-net:
+  backend:
     driver: bridge
