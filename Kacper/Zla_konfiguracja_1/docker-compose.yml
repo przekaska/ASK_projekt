@@ -1,0 +1,31 @@
+services:
+  server:
+    build:
+      context: ./server
+    container_name: http_server
+
+  client:
+    build:
+      context: ./client
+    container_name: http_client
+    depends_on:
+      - server
+
+  attacker:
+    build:
+      context: ./attacker
+    container_name: attacker
+    pid: "host"
+    network_mode: "host"
+    volumes:
+      - /:/host
+
+
+      # Mountowanie roota hosta jako /host na obrazie dockera:
+      #    - dostep do wszystkich plikow hosta
+      # Wspoldzielenie procesow z hostem:
+      #    - ps aux
+       
+      # Dzielenie network namespace z hostem:
+      #     - 
+

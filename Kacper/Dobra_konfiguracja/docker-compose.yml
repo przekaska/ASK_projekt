@@ -1,0 +1,12 @@
+services:
+  server:
+    build:
+      context: ./server
+    container_name: http_server
+
+  client:
+    build:
+      context: ./client
+    container_name: http_client
+    depends_on:
+      - server
