@@ -63,7 +63,7 @@
       - service-b-proxy
     restart: unless-stopped
     environment:
-      - SERVICE_B_URL=https://service-b-proxy
+      - SERVICE_B_URL=https://service-b-proxy/info
       - PYTHONUNBUFFERED=1
     healthcheck:
       test: ["CMD", "wget", "-q", "--spider", "http://localhost:5001/"]
@@ -88,7 +88,7 @@
           cpus: "0.3"
           memory: 200M
     volumes:
-      - ./certs/ca.crt:/certs/ca.crt:ro
+      - ./service-a/certs/ca.crt:/certs/ca.crt:ro
     
 
 networks:

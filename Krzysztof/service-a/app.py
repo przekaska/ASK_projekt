@@ -11,7 +11,7 @@ CA_CERT = "/certs/ca.crt"
 @app.route("/")
 def root():
     try:
-        r = requests.get(SERVICE_B_URL, timeout=2)
+        r = requests.get(SERVICE_B_URL, timeout=2, verify=CA_CERT)
         r.raise_for_status()
         b = r.json()
     except Exception as e:
