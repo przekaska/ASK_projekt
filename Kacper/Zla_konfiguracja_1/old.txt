@@ -1,0 +1,50 @@
+services:
+  server:
+    build:
+      context: ./server
+    container_name: http_server
+    networks:
+      - internal_net
+
+  client:
+    build:
+      context: ./client
+    container_name: http_client
+    depends_on:
+      - server
+    networks:
+      - internal_net
+
+  attacker:
+    build:
+      context: ./attacker
+    container_name: attacker
+    privileged: true
+    # pid: "host"
+    networks:
+      - internal_net
+    # network_mode: "host"
+    # volumes:
+    #   - /:/host
+
+networks:
+  internal_net:
+    driver: bridge
+    internal: true
+      # docker compose run --rm attacker bash
+      #   -   apt install -y procps
+      #   -   apt install -y iputils-ping
+
+      # Mountowanie roota hosta jako /host na obrazie dockera:
+      #    - dostep do wszystkich plikow hosta
+      # Wspoldzielenie procesow z hostem:
+      #    - ps aux
+       
+      # Dzielenie network namespace z hostem:
+      #     - 
+
+      # priviliged:
+      #   -   ls -l /dev
+      #   -   mount /dev/
+      
+

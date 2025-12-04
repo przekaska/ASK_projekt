@@ -3,29 +3,70 @@ services:
     build:
       context: ./server
     container_name: http_server
+    networks:
+      - test_net
+    cap_drop: [ "ALL" ]
+    security_opt:
+      - no-new-privileges:true
 
   client:
     build:
       context: ./client
-    container_name: http_client
+    container_name: demo_client
+    networks:
+      - test_net
     depends_on:
       - server
+    # user: "kacper"
+    security_opt:
+      - no-new-privileges:true
 
   attacker:
+    image: kalilinux/kali-rolling
     build:
       context: ./attacker
     container_name: attacker
+    networks:
+      - test_net
+# Scenariusz 1:
+    # cap_drop: [ "ALL" ]
+    # security_opt:
+    #   - no-new-privileges:true
+# Scenariusz 2:
+    # po prostu bez dodatkowych ograniczen
+# Scenariusz 3:
+    # cap_add:
+    #   - NET_ADMIN
+    #   - NET_RAW
+    # security_opt:
+    #   - no-new-privileges:false
+# Scenariusz 4:
+    # volumes:
+    #   - /var/run/docker.sock:/var/run/docker.sock
+# Scenariusz 5:
     pid: "host"
-    network_mode: "host"
-    volumes:
-      - /:/host
+# Scenariusz 6:
+    # privileged: true
 
 
-      # Mountowanie roota hosta jako /host na obrazie dockera:
-      #    - dostep do wszystkich plikow hosta
-      # Wspoldzielenie procesow z hostem:
-      #    - ps aux
-       
-      # Dzielenie network namespace z hostem:
-      #     - 
+# Scenariusz 7:
+    # volumes:
+    #   - /:/host
+
+
+    # privileged: true
+    # pid: "host"
+    # network_mode: "host"
+    # volumes:
+    #   - /:/host
+
+networks:
+  internal_net:
+    driver: bridge
+    internal: true
+
+  test_net:
+    driver: bridge
+
+      
 
